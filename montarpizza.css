@@ -1,0 +1,59 @@
+body {
+    background-color: #090F0D;
+}
+
+/* Para telas até 1366px */
+@media (max-width: 1366px) {
+    .bandeja {
+        width: 80vw; /* Ajuste este valor conforme necessário */
+        height: 80vw; /* Ajuste este valor conforme necessário */
+        border-radius: 80%; /* Isso fará com que o elemento seja completamente redondo */
+        background: #733508; /* Ajuste a cor de fundo conforme necessário */
+        position: absolute;
+        top: 35%; /* Posiciona o elemento no meio da tela verticalmente */
+        left: 50%; /* Posiciona o elemento no meio da tela horizontalmente */
+        transform: translate(-50%, -50%); /* Centraliza o elemento */
+    }
+
+    .bandeja img {
+        width: 137px;
+        height: 179px; /* Ajuste este valor conforme necessário */
+        position: relative;
+        top: 30%; /* Posiciona a imagem no meio do elemento .bandeja verticalmente */
+        left: 50%; /* Posiciona a imagem no meio do elemento .bandeja horizontalmente */
+        transform: translate(-50%, -50%) rotate(0deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #0 {
+        transform: translate(-50%, -50%) rotate(0deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #1 {
+        transform: translate(-50%, -50%) rotate(45deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #2 {
+        transform: translate(-50%, -50%) rotate(90deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #3 {
+        transform: translate(-50%, -50%) rotate(135deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #4 {
+        transform: translate(-50%, -50%) rotate(180deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #5 {
+        transform: translate(-50%, -50%) rotate(225deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #6 {
+        transform: translate(-50%, -50%) rotate(270deg); /* Centraliza e rotaciona a imagem */
+    }
+
+    #7 {
+        transform: translate(-50%, -50%) rotate(315deg); /* Centraliza e rotaciona a imagem */
+    }
+}
+

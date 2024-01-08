@@ -1,0 +1,156 @@
+body {
+    background-color:#090F0D;
+}
+
+/* Para telas até 1366px */
+
+@media (max-width: 1366px) {
+    
+    
+    
+    #hamburgtela {
+        width: 40vw; /* Ajuste este valor conforme necessário */
+        height: 40vw;
+        position: absolute;
+        top: 38%; /* Posiciona a imagem no meio do elemento .bandeja verticalmente */
+        left: 37%; /* Posiciona a imagem no meio do elemento .bandeja horizontalmente */
+        transform: translate(-50%, -50%) rotate(0deg); 
+    }
+
+    #pizaa {
+        width: 90vw; /* Ajuste este valor conforme necessário */
+        height: 70vw;
+        position: absolute;
+        margin-top: -38%; /* Posiciona a imagem no meio do elemento .bandeja horizontalmente */
+        margin-left: 50%;
+        transform: translate(-50%, -50%) rotate(0deg);    
+    }
+
+    #suco {
+        width: 20vw; /* Ajuste este valor conforme necessário */
+        height: 40vw;
+        position: absolute;
+        top: 34%; /* Posiciona a imagem no meio do elemento .bandeja verticalmente */
+        left: 70%; /* Posiciona a imagem no meio do elemento .bandeja horizontalmente */
+        transform: translate(-50%, -50%) rotate(0deg); 
+    }
+
+    #minhaLinha {
+        border: none;
+        height: 4px;
+        background-color: #FF6B00;
+        margin-top: 15%; /* Posiciona a imagem no meio do elemento .bandeja verticalmente */
+        
+    }
+
+    #minhaLinha2 {
+        border: none;
+        height: 4px;
+        background-color: #FF6B00;
+        margin-top: 80%; /* Posiciona a imagem no meio do elemento .bandeja verticalmente */
+        
+    }
+
+    #botao {
+        width: 60vw; /* Ajuste este valor conforme necessário */
+        height: 12vw;
+        border-radius: 21px;
+        background-color: #FF6B00;
+        margin-top: 18%;
+        margin-left: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden; /* Adicione esta linha */
+    }
+
+    #meuParagrafo {
+        color: #FFF;
+        font-family: Inria Serif;   
+        font-size: 6vw; /* Tamanho do texto responsivo. Altere conforme necessário */
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 20%;
+    }
+    
+    .fas.fa-utensils {
+        color: #ffffff; /* Cor do ícone. Altere conforme necessário */
+        margin-left: 5%; /* Espaço à direita do ícone. Altere conforme necessário */
+        font-size: 8vw; /* Tamanho do ícone responsivo. Altere conforme necessário */
+    }
+    
+
+    #linhaVertical {
+        width: 0,5%; /* Largura da linha. Altere conforme necessário */
+        height: 70%; /* Altura da linha. Altere conforme necessário */
+        background-color: #ffffff; /* Cor da linha. Altere conforme necessário */
+        margin-right: 5%; /* Espaço à direita da linha. Altere conforme necessário */
+    }
+
+    /*social*/
+
+    
+    #wapp {
+        border: 2px solid #FF6B00;
+        background-color: transparent;
+        border-radius: 50%;
+        width: 11vw;
+        height: 11vw;
+        margin-top: 12%;
+        margin-left: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #inst{
+        border: 2px solid #FF6B00;
+        background-color: transparent;
+        border-radius: 50%;
+        width: 11vw;
+        height: 11vw;
+        margin-top: -13%;
+        margin-left: 47%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #fece{
+        border: 2px solid #FF6B00;
+        background-color: transparent;
+        border-radius: 50%;
+        width: 11vw;
+        height: 11vw;
+        margin-top: -13%;
+        margin-left: 64%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+    #minhaLinhafundo {
+        border: none;
+        height: 4px;
+        background-color: #FF6B00;
+        margin-top: 15%;
+        width: 100%;
+    }
+    .fa-whatsapp{
+        font-size: 125%;
+    }
+
+    .fa-instagram {
+        font-size: 125%;
+    }
+    .fa-facebook-f{
+        font-size: 125%;
+    }
+    #logo{
+        font-size: 230%;
+        margin-left: 25%;
+        color: #FFF;
+    }
+}
